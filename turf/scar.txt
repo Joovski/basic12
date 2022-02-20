@@ -1,0 +1,4 @@
+local player = game.Players.LocalPlayer
+local character = player.Character
+character:WaitForChild("HumanoidRootPart").CFrame = game:GetService("Workspace").Folder.Turfs["Scarface Mansion"].Dark.CFrame
+
